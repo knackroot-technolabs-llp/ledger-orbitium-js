@@ -1,4 +1,4 @@
-import { LCDClient, MsgSend } from '@terra-money/terra.js';
+import { LCDClient, MsgSend } from 'orbitium.js';
 import { SignMode } from '@terra-money/terra.proto/cosmos/tx/signing/v1beta1/signing';
 //import { LedgerKey } from '@terra-money/ledger-terra-js';//"../../devel/ledger-terra-js';
 import { LedgerKey } from "../src";

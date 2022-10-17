@@ -1,25 +1,25 @@
 {
-  "name": "@terra-money/ledger-terra-js",
-  "version": "1.3.0",
-  "description": "API for Terra App (Ledger Nano S/X)",
+  "name": "@orbitium/ledger-orbitium-js",
+  "version": "1.0.0",
+  "description": "API for Orbitium App (Ledger Nano S/X)",
   "main": "./dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/terra-money/ledger-terra-js.git"
+    "url": "git+https://github.com/knackroot-technolabs-llp/ledger-orbitium-js.git"
   },
   "keywords": [
     "Ledger",
     "Javascript",
     "Tendermint",
     "Cosmos",
-    "Terra"
+    "Orbitium"
   ],
   "author": "ZondaX GmbH",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/terra-money/ledger-terra-js/issues"
+    "url": "https://github.com/knackroot-technolabs-llp/ledger-orbitium-js/issues"
   },
-  "homepage": "https://github.com/terra-money/ledger-terra-js",
+  "homepage": "https://github.com/knackroot-technolabs-llp/ledger-orbitium-js",
   "dependencies": {
     "@ledgerhq/hw-transport": "^6.20.0",
     "@ledgerhq/hw-transport-node-hid": "^6.20.0",
@@ -31,7 +31,7 @@
   "devDependencies": {
     "@codejedi365/jest-serial-runner": "^2.0.0",
     "@ledgerhq/logs": "^6.10.0",
-    "@terra-money/terra.js": "v3.1.7",
+    "orbitium.js": "v1.0.0",
     "@types/jest": "^27.0.3",
     "@types/ripemd160": "^2.0.0",
     "@types/secp256k1": "^4.0.3",
@@ -57,7 +57,7 @@
     "vue-template-compiler": "^2.6.10"
   },
   "peerDependencies": {
-    "@terra-money/terra.js": "^3.1.7",
+    "orbitium.js": "^1.0.0",
     "secp256k1": "^4.0.3"
   },
   "scripts": {
